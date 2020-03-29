@@ -1,0 +1,201 @@
+body {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #131A3D;
+}
+a:hover , a:focus , a:active {
+    text-decoration: none;
+    transition: .3s ease;
+    
+}
+.header {
+    padding-top: 55px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.menu { 
+   list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu-item a {
+    line-height: 20px;
+    color: #131A3D;
+    font-size: 16px;
+    margin-left: 27px;
+    
+}
+.header-phone {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #131A3D;
+}
+.main-offer {
+    padding-top: 132px;
+}
+.title {
+    font-weight: bold;
+    margin-top: 76px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #131A3D;
+}
+.title::after , .card-title::after , .video-title::after{
+    content: "" ;
+    background: linear-gradient(180deg, #6F8DD9 0%, #3677E0 100%);
+    width: 100px;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+}
+.offer {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.main-button {
+    
+    
+    padding: 19px 30px;
+    background: #6F8DD9;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.main-button a {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.skill {
+    padding-top: 70px;
+}
+.card {
+    padding: 50px 37px;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.card-title h3 {
+    margin-top: 54px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    
+
+}
+.card-title::after {
+    width: 50px;
+    margin-top: 10px;
+}
+.card-offer {
+    margin-top: 20px;
+
+}
+.card-offer p {
+    line-height: 22px;
+    
+    
+    
+}
+.video {
+    padding-top: 150px;
+}
+.video-item {
+    
+
+   
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.video-title h2 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+}
+.video-offer {
+    margin-top: 30px;
+}
+.contacts {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.main-phone {
+    margin-top: 30px;
+}
+.main-phone a {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #131A3D;
+    margin-top: 30px;
+    
+}
+.adress {
+    margin-top: 30px;
+}
+.adress p {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.contacts-form input , textarea {
+    width: 100%;
+    margin-top: 13px;
+    border: 1px solid rgba(19, 26, 61, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 17px 0px 16px 22px;
+    outline: none;
+}
+.h2-title {
+    margin-top: 35px;
+}
+.contacts-button {
+    width: 165px;
+}
+.contacts-button a {
+    
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer {
+    background: #1B1B1B;
+    padding: 55px 165px;
+}
+.footer-button {
+    padding: 15px 30px;
+    margin-top: 0px;
+    border-color: #1B1B1B;
+}
+.footer-button a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;  
+}
+.card:hover {
+background: linear-gradient(180deg, #6F8DD9 0%, #3677E0 100%);
+	box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    
+}
+.card:hover svg path {
+    fill: #FFFFFF;
+}
+.card:hover .card-title::after{
+	background: #fff;
+}
+.main-button:hover {
+	color: #fff;
+	background: #5877c7;
+    transition: .3s ease;
+    
+}
+input:focus , textarea:focus {
+    border: 1px solid #6F8DD9;
+	transition: .3s ease;
+}
